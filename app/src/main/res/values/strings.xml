@@ -1,10 +1,45 @@
 <resources>
     <string name="app_name">finalLab</string>
-    <string name= "login">Login</string>
+    <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="loginHint">Enter a user name</string>
     <string name="loginButtonText">Login</string>
 
     <string name="errMessageLogin">Invalid Login. Please retry.</string>
     <string name="errMessagePassword">Invalid Password. Please retry.</string>
+
+    <string name="txtFirstName">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtPhone">Phone</string>
+    <string name="txtDay">Day</string>
+    <string name="txtYear">Year</string>
+    <string name="cert">Certificates</string>
+    <string name="twoYr">Associates Degree</string>
+    <string name="txtMajor">Major</string>
+    <string name="txtNext">Next</string>
+    <string-array name="lstCertificate">
+        <item>Android Certificate</item>
+        <item>iOS Mobile Certificate</item>
+    </string-array>
+    <string-array name="lstMajor">
+        <item>Digital Media</item>
+        <item>Mobile Application Development</item>
+        <item>Web Development</item>
+    </string-array>
+
+    <string name="txtMonth">Month</string>
+    <string-array name="lstMonth">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
 </resources>

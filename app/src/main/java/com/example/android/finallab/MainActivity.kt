@@ -1,5 +1,6 @@
 package com.example.android.finallab
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -37,9 +38,14 @@ class MainActivity : AppCompatActivity() {
                     txtLogin.requestFocus()
                 }
 
-                else ->
+                else -> {
                     Toast.makeText(applicationContext, "Success", Toast.LENGTH_LONG).show()
+                    intent = Intent(this, MainClassList::class.java)
+                    startActivity(intent)
+                }
+
             }
+
         }
     }
 
